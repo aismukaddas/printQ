@@ -1,26 +1,26 @@
-is a custom implementation of the C programming function printf. This project is an application of the C programming knowledge that main School cohort 3 students have learned since starting the program on May 1, 2017.
+s a custom implementation of the C programming function printf. This project is an application of the C programming knowledge that main School cohort 3 students have learned since starting the program on May 1, 2017.
 
-Prototype: int _prinf(const char *, ...);
+Prototype: int _printf(const char *, ...);
 
 Examples
-Str
+String
 
-Input:_prinf("%s\n", 'Tis is a string.');
-Output: Thting this is a string.
+Input: _printf("%s\n", 'This is a string.');
+Output: This is a string.
 Character
 
-Input: _printf("The first letter in the alphabet is %c\n", 'A');
-Output: The first letter in the alphabet is A
+InputThe first letter in the alphabet is c\n", 'A');
+Output: The firt letter in the alphabet is A
 Integer
 
-Input: _printf("There are %i dozens in a gross\n", 12);
+Input: _printf("There are %i dozens in a gross12);
 Output: There are 12 dozens in a gross
 Decimal:
 
 Input: _printf("%d\n", 1000);
 Output: 1000
 Project Requirements
-All files will be compiled on Ubuntu 14.04 LTS
+All files will be compiled on Ubun: _printf("%s\n", tu 14.04 LTS
 Programs and functions will be compiled with gcc 4.8.4 using flags -Wall -Werror -Wextra and -pedantic
 Code must follow the Betty style
 Global variables are not allowed
@@ -46,21 +46,20 @@ Advanced Tasks
  Handle length modifiers l and h for non-custom conversion specifiers.
  Handle the field width for non-custom conversion specifiers.
  Handle the precision for non-custom conversion specifiers.
- Handle thunsigned_int.c: - contains the functions print_u, print_o, and print_b, which handle the conversion specifiers u, o, and b, respectively
+ Handle the 0 flag character for non-custom conversion specifiers.
+ Handle the custom conversion specifier r that prints the reversed string.
+ Handle the custom conversion specifier R that prints the rot13'ed string.
+ All above options should work well togetheunction _putchar, which writes a character to stdout.
+main.h: - contains all function prototypes used for _printf.
+man_3_printf: - manual page for the custom _printf function.
+print_chars.c: - contains the functions print_c, print_s, print_S, and print_r which handle the conversion specifiers c, s, S, and r, respectively, as well as hex_print, which prints a char's ascii value in uppercase hex
+print_numbers.c: - contains the functions print_i and print_d, which handle the conversion specifiers i and d, respectively
+print_hex.c: - contains the functions print_hex, which prints an unsigned int in hexidecimal form, print_x, print_X, and print_p, which handle the conversion specifiers x, X, and p, respectively
+print_unsigned_int.c: - contains the functions print_u, print_o, and print_b, which handle the conversion specifiers u, o, and b, respectively
 print_rot13.c - contains the function print_R, which handles the conversion specifier R
 Authors
 Jane Doe | @Jane_Doe
 
-John Doe | @John_Doee 0 flag character for non-custom conversion specifiers.
- Handle the custom conversion specifier r that prints the reversed string.
- Handle the custom conversion specifier R that prints the rot13'ed string.
- All above options should work well together.
+John Doe | @John_Doer.
 File Descriptions
-_printf.c: - contains the fucntion _printf, which uses the prototype int _printf(const chare directives. See man 3 printf for more detail. _printf will return the number of characters printed (excluding the null byte used to end output to strings) and will write output to stdout, the standard output stream.
-_putchar.c: - contains the function _putchar, which writes a character to stdout.
-main.h: - contains all function prototypes used for _printf.
-man_3_printf: - manual page for the custom _printf function.
-prt_S, and print_r which handle the conversion specifiers c, s, S, and r, respectively, as well as hex_print, which prints a char's ascii value in uppercase hex
-print_numbers.c: - contains the functions print_i and print_d, which handle the conversion specifiers i and d, respectively
-print_hex.c: - contains the functions print_hex, which prints an unsigned int in hexidecimal form, print_x, print_X, and print_p, which handle the conversion specifiers x, X, and p, respectively
-print_i
+_printf.c: - contains the fucntion _printf, which uses the prototype int _printf(const char *format, ...);. The format string is composed of zero or more directives. See man 3 printf for more detail. _printf will return the number of characters pi
